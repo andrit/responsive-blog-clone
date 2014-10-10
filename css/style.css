@@ -1,2 +1,35 @@
 /*Styles for responsive Blog Clone --Thinkful*/
 
+body {
+	font-family: Alright Sans,sans-serif;
+	font-size: 93.75%;
+	line-height: 1.66667;
+	background-color: #f1f3f2;
+	color: #4c4e4d;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.top-nav {
+	position: fixed;
+	top: 0;
+	z-index: 25;
+	background: rgba(95,118,133,0.9);
+	padding:0.2em 0.4em;
+	color:white;
+	width:100%;
+	text-transform: uppercase;
+}
+
+.social {
+	float:right;
+}
+
+.social  li {
+	display:inline-block;
+	margin-left:0.7em;
+}
+
+.social  li:first-child {
+	margin-left:0em;
+}
