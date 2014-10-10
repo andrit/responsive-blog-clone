@@ -10,6 +10,23 @@ body {
 	overflow-x: hidden;
 }
 
+aside, section, p, h1, h2, h3, h4, h5, h6, h7, div, article{
+	display:block;
+}
+
+h1 {
+	font-size:2em;
+	font-weight:bolder;
+	line-height:1.3em;
+}
+
+h2 {
+	font-size:1.45em;
+	font-weight:bolder;
+}
+
+/*header*/
+
 .top-nav {
 	position: fixed;
 	top: 0;
@@ -32,4 +49,13 @@ body {
 
 .social  li:first-child {
 	margin-left:0em;
+}
+
+/*main content*/
+.section-top {
+	background-color: #fff200;
+}
+
+header .sidebar-header {
+	padding:3.6em;
 }
