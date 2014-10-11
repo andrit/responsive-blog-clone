@@ -1,13 +1,12 @@
 /*Styles for responsive Blog Clone --Thinkful*/
 
 body {
-	font-family: Alright Sans,sans-serif;
+	font-family: Open Sans, Helvetica, sans-serif;
 	font-size: 93.75%;
 	line-height: 1.66667;
-	background-color: #f1f3f2;
+	bacground:rgba(95,118,133,1);
 	color: #4c4e4d;
 	width: 100%;
-	overflow-x: hidden;
 }
 
 aside, section, p, h1, h2, h3, h4, h5, h6, h7, div, article{
@@ -31,11 +30,22 @@ h2 {
 	position: fixed;
 	top: 0;
 	z-index: 25;
-	background: rgba(95,118,133,0.9);
+	background: rgba(95,118,133,1);
 	padding:0.2em 0.4em;
 	color:white;
 	width:100%;
 	text-transform: uppercase;
+}
+
+.top-nav .brand {
+	margin:0.25em;
+}
+
+.brand {
+	display:inline-block;
+	font-family:Impact;
+	font-size:2em;
+	margin-left:1.3em;
 }
 
 .social {
@@ -51,11 +61,50 @@ h2 {
 	margin-left:0em;
 }
 
+.social li:last-of-type {
+  margin-right: .5em;
+}
+
+
+
 /*main content*/
+
+.page-content {
+  margin-top: 11em;
+}
+
 .section-top {
 	background-color: #fff200;
 }
 
-header .sidebar-header {
-	padding:3.6em;
+.sidebar-container {
+	position: absolute;
+}
+
+.content-card {
+	position:relative;
+}
+
+.sidebar-container .sidebar-header {
+	padding:2.1em;
+}
+
+.content-header{
+	text-align:center;
+}
+
+.content-footer {
+	text-align:center;
+	border-top:0.071em solid #333;
+}
+
+.content-footer p {
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 768px) {
+  .sidebar-container {
+    position: static;
+  }
 }
