@@ -4,7 +4,7 @@ body {
 	font-family: Open Sans, Helvetica, sans-serif;
 	font-size: 93.75%;
 	line-height: 1.66667;
-	bacground:rgba(95,118,133,1);
+	background:rgba(99,126,151,1);
 	color: #4c4e4d;
 	width: 100%;
 }
@@ -37,14 +37,11 @@ h2 {
 	text-transform: uppercase;
 }
 
-.top-nav .brand {
-	margin:0.25em;
-}
 
 .brand {
 	display:inline-block;
 	font-family:Impact;
-	font-size:2em;
+	font-size:1.4em;
 	margin-left:1.3em;
 }
 
@@ -77,6 +74,87 @@ h2 {
 	background-color: #fff200;
 }
 
+.sidebar-container {
+  background-color: #2A2A2A;
+  position:fixed;
+}
+
+.sidebar-container ol li {
+	margin-left:2.6em;
+}
+
+.sidebar-nav {
+  color: #AAA;
+}
+
+.sidebar-nav-control {
+  background-color: #222;
+  font-size: .75em;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 4px;
+}
+
+.sidebar-nav-control:hover {
+  color: #FFF;
+}
+
+.up:before {
+  content: "\25b2";
+}
+
+.down:before {
+  content: "\25bc";
+}
+
+.sidebar-nav li {
+  margin: 1.5em 0;
+}
+
+.sidebar-nav li:before {
+  color: #ddd;
+}
+
+.sidebar-nav .selected {
+  color: #FFEB00;
+}
+
+.content-header {
+  position: relative;
+  background-color: #ffeb00;
+}
+.content-header:before {
+  position: absolute;
+  top: 0.25em;
+  content: "\2329";
+  display: inline-block;
+}
+.content-header:after {
+  position: absolute;
+  right: 0;
+  top: 0.25em;
+  content: "\232a";
+}
+
+
+.content-header h3 {
+  margin: 0;
+  color: #888;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .8em;
+  padding: 0.5em 0;
+}
+
+.content-card {
+  background-color: white;
+  color: #666;
+}
+.content-body {
+	padding:6em;
+}
 .sidebar-container {
 	position: absolute;
 }

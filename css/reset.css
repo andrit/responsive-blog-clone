@@ -42,7 +42,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-ol, ul {
+ul {
 	list-style: none;
 	list-style-type: none;
 }

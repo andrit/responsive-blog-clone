@@ -43,50 +43,62 @@
 
 .one-col {
   width: 6.958%;
+  position:relative;
 }
 
 .two-col {
   width: 15.41%;
+  position:relative;
 }
 
 .three-col {
   width: 23.87%;
+  position:relative;
 }
 
 .four-col {
   width: 32.33%;
+  position:relative;
 }
 
 .five-col {
   width: 40.79%;
+  position:relative;
 }
 
 .six-col {
   width: 49.25%;
+  position:relative;
 }
 
 .seven-col {
   width: 57.70%;
+  position:relative;
 }
 
 .eight-col {
   width: 66.16%;
+  position:relative;
 }
 
 .nine-col {
   width: 74.62%;
+  position:relative;
 }
 
 .ten-col {
   width: 83.08%;
+  position:relative;
 }
 
 .eleven-col {
   width: 91.54%;
+  position:relative;
 }
 
 .twelve-col {
   width: 100%;
+  position:relative;
 }
 
 .one-offset {
